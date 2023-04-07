@@ -1,0 +1,12 @@
+const appname = "LMB";
+const appversion = "Version 1.0.0";
+const credits = "@Duy Siin";
+const email = "Email";
+const emailHint = "Duysiin123@gmail.com";
+const password = "Password";
+const passwordHint = "******";
+const forgetpas ="Forget Password?";
+const Login = "Log In";
+const Signup = "Sign Up";
+const createnewaccount = "Do not have an account?";
+const loginwith = "Log In with";
