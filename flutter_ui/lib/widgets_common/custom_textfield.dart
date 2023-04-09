@@ -4,7 +4,7 @@ Widget customTextField({String? title, String? hint, controller}){
   return Column(
     crossAxisAlignment: CrossAxisAlignment.start,
     children: [
-      title!.text.color(golden).fontFamily(semibold).size(16).make(),
+      title!.text.black.fontFamily(semibold).size(16).make(),
       5.heightBox,
       TextFormField(
         decoration: InputDecoration(

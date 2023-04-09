@@ -39,14 +39,14 @@ class _SplashScreenState extends State<SplashScreen>{
         child: Column(children: [
           Align(
             alignment: Alignment.topLeft,
-            child:  Image.asset("/icons/splash_login_registration_background_image.png",width: 300,),
+            child:  Image.asset("/icons/splash_login_registration_background_image.png",width: 200,),
           ),
-          20.heightBox,
+          50.heightBox,
           applogoWidget(),
           10.heightBox,
-          appname.text.fontFamily(bold).size(22).white.make(),
-          5.heightBox,
-          appversion.text.white.make(),
+          // appname.text.fontFamily(bold).size(22).white.make(),
+          // 5.heightBox,
+          // appversion.text.white.make(),
           const Spacer(),
           credits.text.white.fontFamily(semibold).make(),
           30.heightBox

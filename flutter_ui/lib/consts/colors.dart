@@ -7,5 +7,6 @@ const Color whiteColor = Color.fromRGBO(255, 255, 255, 1);
 const Color lightGrey = Color.fromRGBO(239, 239, 239, 1);
 const Color redColor = Color.fromRGBO(230, 46, 4, 1);
 const Color golden = Color.fromRGBO(255, 168, 0, 1);
-const Color backgroundColor = Color.fromRGBO(101, 177, 248, 1);
+const Color backgroundColor = Color.fromRGBO(11,52,58,1);
 const Color lightGolden = Color(0xffFEEAD1);
+const Color violetBlack = Color.fromARGB(1, 178, 0, 147);
