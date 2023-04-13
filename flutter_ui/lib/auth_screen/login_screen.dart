@@ -1,7 +1,7 @@
 import 'package:flutter_ui/auth_screen/signup_screen.dart';
 import 'package:flutter_ui/consts/consts.dart';
 import 'package:flutter_ui/consts/lists.dart';
-import 'package:flutter_ui/home_screen/home_screen.dart';
+import 'package:flutter_ui/home_screen/home.dart';
 import 'package:flutter_ui/widgets_common/applogo_widget.dart';
 import 'package:flutter_ui/widgets_common/bg_widget.dart';
 import 'package:flutter_ui/widgets_common/custom_textfield.dart';
@@ -32,7 +32,7 @@ class LoginScreen extends StatelessWidget{
                   child: TextButton(onPressed: (){},child: forgetpas.text.make())),
                   5.heightBox,
                   ourButton(color: redColor,title: Login, textColor: whiteColor, onPress: (){
-                    Get.to(()=> const HomeScreen());
+                    Get.to(()=> const Home());
                   })
                     .box
                     .width(context.screenWidth-50)
