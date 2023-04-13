@@ -39,5 +39,5 @@ const searchanything = "Search anything...",
       tShirts = "TShirts",
       girlsDress = "Girls Dresses",
       featureProduct = "Featured Product",
-      
+      allProduct = "Tất cả sản phẩm",
       featuredCategories = "Featured Categories";
