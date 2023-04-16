@@ -24,3 +24,20 @@ const home = "Home",
       category = "Category",
       cart = "Cart",
       account = "Account";
+
+//home screen string
+const searchanything = "Search anything...",
+      todayDeal = "Today's Deal",
+      flashsale = "Flash Sale",
+      topSellers = "Top Sellers",
+      brand = "Brand",
+      topcategories = "Top Categories",
+      womenDress = "Women Dress",
+      girlsWathches = "Girls Watches",
+      mobilePhone = "Mobile Phone",
+      boysGlasses = "Boys Glasses",
+      tShirts = "TShirts",
+      girlsDress = "Girls Dresses",
+      featureProduct = "Featured Product",
+      allProduct = "Tất cả sản phẩm",
+      featuredCategories = "Featured Categories";

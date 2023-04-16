@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui/consts/colors.dart';
+import 'package:flutter_ui/consts/consts.dart';
 import 'package:flutter_ui/view/splash_screen/splash_screen.dart';
 import 'package:get/get.dart';
 
@@ -17,8 +19,15 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        
-        primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: Colors.transparent,
+        appBarTheme: const AppBarTheme(
+          iconTheme: IconThemeData(
+            color: darkFontGrey
+          ),
+          elevation: 0.0,
+          backgroundColor: Colors.transparent,
+        ),
+      fontFamily: regular,
       ),
       home: const SplashScreen(),
       debugShowCheckedModeBanner: false,

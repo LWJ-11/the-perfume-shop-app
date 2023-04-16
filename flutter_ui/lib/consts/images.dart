@@ -128,3 +128,12 @@ const imgStripe = "assets/images/stripe.png";
 const imgTwocheckout = "assets/images/twocheckout.png";
 const imgVogue = "assets/images/vogue.png";
 const imgWallet = "assets/images/wallet.png";
+
+
+//img nước hoa
+const imgbrandchanel = "/images/chanellogo.png";
+const imgbrandboss = "/images/bosslogo.jpg";
+const imgbrandarmani = "/images/armamilogo.png";
+const imgbrandpaco = "images/pacologo.jpg";
+const imgbrandgucci = "/images/guccilogo.png";
+const imgbrandyvesSaintLaurent = "/images/yveslogo.png";
